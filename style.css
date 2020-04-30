@@ -16,12 +16,12 @@ img {
 /* .header { */
   /* position: relative;
   /* background-image: url(/images/sunrise.svg); */
-  background-position: center center;
+  /* background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
   background-color: antiquewhite;
-} */
+} */ */
 
 
 .welcome{
@@ -300,7 +300,7 @@ nav{
     margin-top: 25vh;
     text-align: center;
     font-weight: 500;
-    font-size:2em;
+    font-size:4em;
     color: black;
   }
 
