@@ -51,7 +51,7 @@ nav li a:hover {
 /* HEADER CSS */
 .header {
   position: relative;
-  background-image: url(/images/geometric-decoration-5836.jpg);
+  background-image: url(/images/sunrise.svg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ nav li a:hover {
   text-align: center;
   font-weight: 500;
   font-size:4em;
-  color: white}
+  color:black;}
 
 #changingword {
   color:black;
@@ -120,11 +120,6 @@ border-radius: 1%;
 
 .box6 {
   grid-area: f;
-}
-
-.bigText {
-  font-size: 2em;
-  padding-right: .5ch;
 }
 
 
