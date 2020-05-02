@@ -12,18 +12,6 @@ img {
 
 
 
-/* HEADER CSS */
-/* .header { */
-  /* position: relative;
-  /* background-image: url(/images/sunrise.svg); */
-  /* background-position: center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-color: antiquewhite;
-} */ */
-
-
 .welcome{
   margin-top: 25vh;
   text-align: center;
@@ -282,16 +270,6 @@ nav{
     text-decoration: none;
   }
 
-  /* HEADER CSS */
-.header {
-    position: relative;
-    background-image: url(/images/sunrise.svg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-color: antiquewhite;
-}
 
 .headline{
   margin-top: -500px;
@@ -482,7 +460,7 @@ nav{
         ;
     }
     
- } */
+ } 
 
 
 
