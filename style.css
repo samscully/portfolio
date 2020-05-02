@@ -9,7 +9,15 @@ img {
   width: 100%;
   height: auto;
 }
-
+.header {
+  position: relative;
+  background-image: url(/images/sunrise.svg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: antiquewhite;
+}
 
 
 .welcome{
@@ -138,7 +146,7 @@ padding-right:.5em;
   grid-area:footer;
 }
 footer p{
-  font-size:2em;
+  font-size: 8em;
 }
 footer li {
   display:inline;
@@ -411,9 +419,7 @@ nav{
   footer svg {
     width:20%;
   }
-  footer p{
-    font-size: 1em;
-  }
+ 
 
 
 

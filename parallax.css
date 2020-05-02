@@ -1,37 +1,34 @@
-
 .parallax-wrapper {
   width: 100vw;
   height:100vh;
   padding-top:20vh;
   box-sizing: border-box;
-  transform-style: preserve-3d;
 }
 .regular-wrapper {
   z-index: 2;
   position: relative;
   height:100vh;
   padding-top:20vh;
-  /* background-color: rgb(255, 255, 255); */
+  background-color: rgb(255, 255, 255);
 }
 .regular-wrapper2 {
   z-index: 2;
   position: relative;
   padding-top:10vh;
   padding-bottom: 10vh;
-  /* background-color: rgb(255, 255, 255); */
+  background-color: rgb(255, 255, 255);
 }
 
 
 .parallax-wrapper::before {
   content:"";
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url(/images/sunrise.svg);
-  background-size: 100%;
-  height: 100%;
-  /* background-repeat: no-repeat; */
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
-  transform:translateZ(-1px) scale(2);
   z-index: -1;
 }
 
@@ -46,6 +43,66 @@ body {
   overflow-x:hidden;
   overflow-y:auto;
 }
+.parallax-wrapper {
+  transform-style: preserve-3d;
+}
+
+.parallax-wrapper::before {
+  transform:translateZ(-1px) scale(2);
+}
+
+.parallax-wrapper::before {
+  z-index: -1;
+}
+
+/* 
+.parallax-wrapper {
+  width: 100vw;
+  height:100vh;
+  padding-top:20vh;
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
+.regular-wrapper {
+  z-index: 2;
+  position: relative;
+  height:100vh;
+  padding-top:20vh; */
+  /* background-color: rgb(255, 255, 255); */
+} */
+/* .regular-wrapper2 {
+  z-index: 2;
+  position: relative;
+  padding-top:10vh;
+  padding-bottom: 10vh; */
+  /* background-color: rgb(255, 255, 255); */
+/* } 
+
+
+/* .parallax-wrapper::before {
+  content:"";
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/sunrise.svg);
+  background-size: 100%;
+  height: 100%; */
+  /* background-repeat: no-repeat; */
+  /* position: absolute;
+  transform:translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+
+html {
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x:hidden;
+  overflow-y:auto;
+} */
 
 .name{
   color:black;
@@ -88,7 +145,4 @@ footer ul li a:hover {
 footer svg {
   width: 100px;
 }
-/* 
-footer p{
-  font-size: 2em;
-}  */
+
